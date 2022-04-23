@@ -7,9 +7,9 @@ import Appointment from "./components/Appointment/index.js";
 function App() {
   return (
     <div className="App">
-      <VideoPlayer />
+      {/* <VideoPlayer /> */}
       {/* <DiseaseLib /> */}
-      {/* <Appointment /> */}
+      <Appointment />
     </div>
   );
 }

@@ -1,0 +1,25 @@
+.Appointment__features {
+  position: absolute;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  background-color: #001e3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Appointment__features * {
+  color: white;
+}
+
+.Appointment__feature-cards{
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 25px;
+
+}
