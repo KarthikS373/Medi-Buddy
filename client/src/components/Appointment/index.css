@@ -1,0 +1,9 @@
+.Appointment__parent{
+    scroll-snap-type: y mandatory;
+    overflow-y: visible;
+}
+
+.Appointment__parent *{
+    scroll-snap-align: start;
+}
+
