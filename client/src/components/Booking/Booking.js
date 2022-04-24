@@ -13,7 +13,7 @@ export const Booking = () => {
   }, []);
 
   return (
-    <>
+    <div className="Booking__parent">
       <form method="POST" id="survey-form">
         <div class="form-group">
           <label id="name-label" for="name">
@@ -123,6 +123,6 @@ export const Booking = () => {
           </button>
         </div>
       </form>
-    </>
+    </div>
   );
 };
