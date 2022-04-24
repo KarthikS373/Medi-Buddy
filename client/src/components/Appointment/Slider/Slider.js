@@ -14,7 +14,7 @@ export const Slider = () => {
               <span>Content</span>
               <a
                 className="button"
-                href="#"
+                href="/booking"
               >
                 Book
               </a>
